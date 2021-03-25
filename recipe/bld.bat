@@ -1,4 +1,4 @@
-configure.py --enable-shared
+%PYTHON% configure.py --enable-shared
 if errorlevel 1 exit 1
 
 %PYTHON% -m pip install . -vv
