@@ -3,7 +3,7 @@ boost_cpp:
 c_compiler:
 - vs2017
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cuda_compiler:
@@ -25,5 +25,5 @@ python:
 target_platform:
 - win-64
 zip_keys:
-- - numpy
-  - python
+- - python
+  - numpy
