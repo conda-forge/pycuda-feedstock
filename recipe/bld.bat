@@ -1,3 +1,5 @@
+set "PATH=%PATH%;%CUDA_HOME%\\bin%"
+
 %PYTHON% configure.py --enable-shared
 if errorlevel 1 exit 1
 
