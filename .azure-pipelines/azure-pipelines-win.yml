@@ -8,66 +8,102 @@ jobs:
     vmImage: windows-2019
   strategy:
     matrix:
-      win_64_cuda_compiler_version10.2numpy1.19python3.7.____73_pypy:
-        CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.7.____73_pypy
-        UPLOAD_PACKAGES: 'True'
       win_64_cuda_compiler_version10.2numpy1.19python3.7.____cpython:
         CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hf580deaa48
+      win_64_cuda_compiler_version10.2numpy1.19python3.8.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.8.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hb25564ad5f
       win_64_cuda_compiler_version10.2numpy1.19python3.8.____cpython:
         CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hffe94ff147
+      win_64_cuda_compiler_version10.2numpy1.19python3.9.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.9.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_h5001c44c90
       win_64_cuda_compiler_version10.2numpy1.19python3.9.____cpython:
         CONFIG: win_64_cuda_compiler_version10.2numpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hfd851b7be2
       win_64_cuda_compiler_version10.2numpy1.21python3.10.____cpython:
         CONFIG: win_64_cuda_compiler_version10.2numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_cuda_compiler_version11.0numpy1.19python3.7.____73_pypy:
-        CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.7.____73_pypy
-        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_head2835e54
       win_64_cuda_compiler_version11.0numpy1.19python3.7.____cpython:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h7988b3b7d1
+      win_64_cuda_compiler_version11.0numpy1.19python3.8.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.8.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_ha39b221d19
       win_64_cuda_compiler_version11.0numpy1.19python3.8.____cpython:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h0b869159d7
+      win_64_cuda_compiler_version11.0numpy1.19python3.9.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.9.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h966204e8c8
       win_64_cuda_compiler_version11.0numpy1.19python3.9.____cpython:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h70fffaf8a7
       win_64_cuda_compiler_version11.0numpy1.21python3.10.____cpython:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_cuda_compiler_version11.1numpy1.19python3.7.____73_pypy:
-        CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.7.____73_pypy
-        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_ha8f0746982
       win_64_cuda_compiler_version11.1numpy1.19python3.7.____cpython:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h360ae9e970
+      win_64_cuda_compiler_version11.1numpy1.19python3.8.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.8.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_hc66db7d79b
       win_64_cuda_compiler_version11.1numpy1.19python3.8.____cpython:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_ha556998785
+      win_64_cuda_compiler_version11.1numpy1.19python3.9.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.9.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h3f1b6d1ada
       win_64_cuda_compiler_version11.1numpy1.19python3.9.____cpython:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_hceadb1a9ac
       win_64_cuda_compiler_version11.1numpy1.21python3.10.____cpython:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_cuda_compiler_version11.2numpy1.19python3.7.____73_pypy:
-        CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.7.____73_pypy
-        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h2752598360
       win_64_cuda_compiler_version11.2numpy1.19python3.7.____cpython:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h377648b46a
+      win_64_cuda_compiler_version11.2numpy1.19python3.8.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.8.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h783246fb97
       win_64_cuda_compiler_version11.2numpy1.19python3.8.____cpython:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_hc277f77dfb
+      win_64_cuda_compiler_version11.2numpy1.19python3.9.____73_pypy:
+        CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.9.____73_pypy
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h09c3cc43d8
       win_64_cuda_compiler_version11.2numpy1.19python3.9.____cpython:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h9e115fdbdb
       win_64_cuda_compiler_version11.2numpy1.21python3.10.____cpython:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_had44251dbf
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
@@ -147,6 +183,33 @@ jobs:
       env:
         PYTHONUNBUFFERED: 1
       condition: not(contains(variables['CONFIG'], 'vs2008'))
+    - script: |
+        set CI=azure
+        set CI_RUN_ID=$(build.BuildNumber).$(system.JobAttempt)
+        set FEEDSTOCK_NAME=$(build.Repository.Name)
+        set ARTIFACT_STAGING_DIR=$(Build.ArtifactStagingDirectory)
+        set CONDA_BLD_DIR=$(CONDA_BLD_PATH)
+        set BLD_ARTIFACT_PREFIX=conda_artifacts
+        if "%AGENT_JOBSTATUS%" == "Failed" (
+            set ENV_ARTIFACT_PREFIX=conda_envs
+        )
+        call ".scripts\create_conda_build_artifacts.bat"
+      displayName: Prepare conda build artifacts
+      condition: succeededOrFailed()
+
+    - task: PublishPipelineArtifact@1
+      displayName: Store conda build artifacts
+      condition: not(eq(variables.BLD_ARTIFACT_PATH, ''))
+      inputs:
+        targetPath: $(BLD_ARTIFACT_PATH)
+        artifactName: $(BLD_ARTIFACT_NAME)
+
+    - task: PublishPipelineArtifact@1
+      displayName: Store conda build environment artifacts
+      condition: not(eq(variables.ENV_ARTIFACT_PATH, ''))
+      inputs:
+        targetPath: $(ENV_ARTIFACT_PATH)
+        artifactName: $(ENV_ARTIFACT_NAME)
     - script: |
         set "FEEDSTOCK_NAME=%BUILD_REPOSITORY_NAME:*/=%"
         call activate base
