@@ -32,6 +32,11 @@ matrix:
       arch: arm64
       dist: focal
 
+    - env: CONFIG=linux_aarch64_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64-cuda:11.2
+      os: linux
+      arch: arm64
+      dist: focal
+
     - env: CONFIG=linux_ppc64le_cuda_compiler_version11.2numpy1.20python3.8.____73_pypypython_implpypy UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le-cuda:11.2
       os: linux
       arch: ppc64le
@@ -53,6 +58,11 @@ matrix:
       dist: focal
 
     - env: CONFIG=linux_ppc64le_cuda_compiler_version11.2numpy1.21python3.10.____cpythonpython_implcpython UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le-cuda:11.2
+      os: linux
+      arch: ppc64le
+      dist: focal
+
+    - env: CONFIG=linux_ppc64le_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le-cuda:11.2
       os: linux
       arch: ppc64le
       dist: focal

@@ -20,6 +20,10 @@ jobs:
         CONFIG: win_64_cuda_compiler_version10.2numpy1.21python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: win_64_cuda_compiler_version10.2num_heeadb452eb
+      win_64_cuda_compiler_version10.2numpy1.23python3.11.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compiler_version10.2numpy1.23python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hc382ffbe12
       win_64_cuda_compiler_version11.0numpy1.20python3.8.____cpythonpython_implcpython:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.20python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
@@ -32,6 +36,10 @@ jobs:
         CONFIG: win_64_cuda_compiler_version11.0numpy1.21python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: win_64_cuda_compiler_version11.0num_he1938a2101
+      win_64_cuda_compiler_version11.0numpy1.23python3.11.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compiler_version11.0numpy1.23python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_hf9aca2317a
       win_64_cuda_compiler_version11.1numpy1.20python3.8.____cpythonpython_implcpython:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.20python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
@@ -44,6 +52,10 @@ jobs:
         CONFIG: win_64_cuda_compiler_version11.1numpy1.21python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h4729fd65d1
+      win_64_cuda_compiler_version11.1numpy1.23python3.11.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compiler_version11.1numpy1.23python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h60089e7a34
       win_64_cuda_compiler_version11.2numpy1.20python3.8.____cpythonpython_implcpython:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.20python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
@@ -56,6 +68,10 @@ jobs:
         CONFIG: win_64_cuda_compiler_version11.2numpy1.21python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h0900f92147
+      win_64_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython
+        UPLOAD_PACKAGES: 'True'
+        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h413ab71c9d
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
