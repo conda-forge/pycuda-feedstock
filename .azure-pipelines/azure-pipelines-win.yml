@@ -5,73 +5,25 @@
 jobs:
 - job: win
   pool:
-    vmImage: windows-2019
+    vmImage: windows-2022
   strategy:
     matrix:
-      win_64_cuda_compiler_version10.2numpy1.20python3.8.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version10.2numpy1.20python3.8.____cpythonpython_implcpython
+      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.10.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_h12ba7c21e7
-      win_64_cuda_compiler_version10.2numpy1.20python3.9.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version10.2numpy1.20python3.9.____cpythonpython_implcpython
+        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_h9bef1444d4
+      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.8.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.8.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_h494cbecbc6
-      win_64_cuda_compiler_version10.2numpy1.21python3.10.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version10.2numpy1.21python3.10.____cpythonpython_implcpython
+        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_hb8fa5fb540
+      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.9.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.9.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_heeadb452eb
-      win_64_cuda_compiler_version10.2numpy1.23python3.11.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version10.2numpy1.23python3.11.____cpythonpython_implcpython
+        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_h40d0dbcf3c
+      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython:
+        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version10.2num_hc382ffbe12
-      win_64_cuda_compiler_version11.0numpy1.20python3.8.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.0numpy1.20python3.8.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h928631720c
-      win_64_cuda_compiler_version11.0numpy1.20python3.9.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.0numpy1.20python3.9.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_h1d94f81de6
-      win_64_cuda_compiler_version11.0numpy1.21python3.10.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.0numpy1.21python3.10.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_he1938a2101
-      win_64_cuda_compiler_version11.0numpy1.23python3.11.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.0numpy1.23python3.11.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.0num_hf9aca2317a
-      win_64_cuda_compiler_version11.1numpy1.20python3.8.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.1numpy1.20python3.8.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h80a133c675
-      win_64_cuda_compiler_version11.1numpy1.20python3.9.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.1numpy1.20python3.9.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h35ca83a86d
-      win_64_cuda_compiler_version11.1numpy1.21python3.10.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.1numpy1.21python3.10.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h4729fd65d1
-      win_64_cuda_compiler_version11.1numpy1.23python3.11.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.1numpy1.23python3.11.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.1num_h60089e7a34
-      win_64_cuda_compiler_version11.2numpy1.20python3.8.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.2numpy1.20python3.8.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h4b131d9af2
-      win_64_cuda_compiler_version11.2numpy1.20python3.9.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.2numpy1.20python3.9.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_hc4a773ae54
-      win_64_cuda_compiler_version11.2numpy1.21python3.10.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.2numpy1.21python3.10.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h0900f92147
-      win_64_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compiler_version11.2num_h413ab71c9d
+        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_hb42779e2ff
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
@@ -97,7 +49,7 @@ jobs:
 
     - script: |
         call activate base
-        mamba.exe install "python=3.9" conda-build conda pip boa conda-forge-ci-setup=3 "py-lief<0.12" -c conda-forge --strict-channel-priority --yes
+        mamba.exe install "python=3.10" conda-build conda pip boa conda-forge-ci-setup=3 -c conda-forge --strict-channel-priority --yes
       displayName: Install conda-build
 
     - script: set PYTHONUNBUFFERED=1
@@ -121,7 +73,7 @@ jobs:
         if EXIST LICENSE.txt (
           copy LICENSE.txt "recipe\\recipe-scripts-license.txt"
         )
-        conda.exe mambabuild "recipe" -m .ci_support\%CONFIG%.yaml --suppress-variables
+        conda.exe mambabuild "recipe" -m .ci_support\%CONFIG%.yaml --suppress-variables %EXTRA_CB_OPTIONS%
       displayName: Build recipe
       env:
         PYTHONUNBUFFERED: 1
