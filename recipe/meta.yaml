@@ -32,7 +32,6 @@ requirements:
 
   run:
     - python
-    - libboost-python-devel
     - {{ pin_compatible('numpy') }}
     - pytools >=2011.2
     - appdirs >=1.4.0
