@@ -1,6 +1,6 @@
 {% set name = "pycuda" %}
-{% set version = "2022.2.2" %}
-{% set sha256 = "cd92e7246bb45ac3452955a110714112674cdf3b4a9e2f4ff25a4159c684e6bb" %}
+{% set version = "2023.1" %}
+{% set sha256 = "175ff675f0cf10e38e9adc03ed5df3ed8d8abf7da5134c8dccec752e8a0a3e91" %}
 
 package:
   name: {{ name|lower }}
@@ -27,14 +27,13 @@ requirements:
   host:
     - python
     - pip
-    - boost
+    - libboost-python-devel
     - numpy
     - cuda-profiler-api  # [cuda_compiler_version == "12.0"]
     - libcurand-dev      # [cuda_compiler_version == "12.0"]
 
   run:
     - python
-    - boost
     - {{ pin_compatible('numpy') }}
     - pytools >=2011.2
     - appdirs >=1.4.0
