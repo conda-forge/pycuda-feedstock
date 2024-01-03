@@ -1,6 +1,6 @@
 {% set name = "pycuda" %}
-{% set version = "2023.1" %}
-{% set sha256 = "175ff675f0cf10e38e9adc03ed5df3ed8d8abf7da5134c8dccec752e8a0a3e91" %}
+{% set version = "2024.1" %}
+{% set sha256 = "d50d23ff6371482cff7d4b953ef40ab81c9df038ecb614484f9fd5347327327e" %}
 
 package:
   name: {{ name|lower }}
