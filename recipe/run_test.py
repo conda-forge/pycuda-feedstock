@@ -8,7 +8,7 @@ import pycuda
 
 # Try to load `libcuda.so` or `nvcuda.dll`
 try:
-    if os.name == 'nt':
+    if os.name == "nt":
         nvcuda = ctypes.WinDLL("nvcuda.dll")
     elif sys.platform.startswith("linux"):
         libcuda = ctypes.CDLL("libcuda.so")
