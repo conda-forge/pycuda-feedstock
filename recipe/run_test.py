@@ -31,7 +31,9 @@ try:
         )
 except Exception as e:
     if os.name == "nt":
-        print("No nvcuda.dll available on windows. Exiting without checking for driver version.")
+        print(
+            "No nvcuda.dll available on windows. Exiting without checking for driver version."
+        )
     else:
         raise
 
