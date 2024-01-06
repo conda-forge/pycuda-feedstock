@@ -6,23 +6,17 @@ import sys
 import pycuda
 
 
-# Load `libcuda.so` either from the system or using the stub
+# Try to load `libcuda.so` or `nvcuda.dll`
 try:
-    libcuda = ctypes.CDLL("libcuda.so")
-except OSError:
-    if (sys.platform.startswith("linux") and
-        os.environ.get("CONDA_OVERRIDE_CUDA", "").startswith("12")):
-        # Load stub library if needed
-        PREFIX = os.environ["PREFIX"]
-        arch = platform.processor()
-        if arch == "aarch64":
-            cuda_target_name =  "sbsa-linux"
-        else:
-            cuda_target_name = f"{arch}-linux"
-        libcuda_stub_path = f"{PREFIX}/targets/{cuda_target_name}/lib/stubs/libcuda.so"
-        libcuda = ctypes.CDLL(libcuda_stub_path)
+    if os.name == 'nt':
+        nvcuda = ctypes.WinDLL("nvcuda.dll")
+    elif sys.platform.startswith("linux"):
+        libcuda = ctypes.CDLL("libcuda.so")
     else:
-        raise
+        raise OSError("Unknown OS")
+except OSError as e:
+    print(e)
+    sys.exit(0)
 
 
 # Ensure PyCUDA picks up the correct CUDA_VERSION
