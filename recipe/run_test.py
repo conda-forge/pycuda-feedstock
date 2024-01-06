@@ -23,7 +23,7 @@ except OSError:
         libcuda = ctypes.CDLL(libcuda_stub_path)
     else:
         raise
-    
+
 
 # Ensure PyCUDA picks up the correct CUDA_VERSION
 try:
