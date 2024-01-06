@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   # symlink not implemented in pypy
   skip: true  # [win and python_impl == "pypy"]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
@@ -25,10 +25,13 @@ requirements:
     - {{ compiler('cuda') }}
 
   host:
+    - cuda-version {{ cuda_compiler_version }}
     - python
     - pip
     - libboost-python-devel
     - numpy
+    - cuda-profiler-api  # [(cuda_compiler_version or "").startswith("12")]
+    - libcurand-dev      # [(cuda_compiler_version or "").startswith("12")]
 
   run:
     - python
@@ -39,9 +42,17 @@ requirements:
 
 test:
   requires:
+    - cuda-version {{ cuda_compiler_version }}
+    - python
     - pytest >=2
   source_files:
     - test
+  files:
+    - pkg_test.py
+  commands:
+    - export cuda_compiler_version={{ cuda_compiler_version }}  # [unix]
+    - set cuda_compiler_version={{ cuda_compiler_version }}     # [win]
+    - python pkg_test.py
 
 about:
   home: http://pypi.python.org/pypi/pycuda
