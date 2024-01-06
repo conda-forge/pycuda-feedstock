@@ -50,4 +50,5 @@ except Exception as e:
 
 # Run PyCUDA's test suite
 import py
+
 py.test.cmdline.main(["test"])
