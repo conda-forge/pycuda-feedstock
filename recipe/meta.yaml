@@ -43,9 +43,16 @@ requirements:
 test:
   requires:
     - cuda-version {{ cuda_compiler_version }}
+    - python
     - pytest >=2
   source_files:
     - test
+  files:
+    - pkg_test.py
+  commands:
+    - export cuda_compiler_version={{ cuda_compiler_version }}  # [unix]
+    - set cuda_compiler_version={{ cuda_compiler_version }}     # [win]
+    - python pkg_test.py
 
 about:
   home: http://pypi.python.org/pypi/pycuda
