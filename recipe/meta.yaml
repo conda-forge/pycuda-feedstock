@@ -25,7 +25,7 @@ requirements:
     - {{ compiler('cuda') }}
 
   host:
-    - cuda-version  {{ cuda_compiler_version }}
+    - cuda-version {{ cuda_compiler_version }}
     - python
     - pip
     - libboost-python-devel
@@ -43,7 +43,7 @@ requirements:
 test:
   requires:
     - cuda-driver-dev  # [linux and (cuda_compiler_version or "").startswith("12")]
-    - cuda-version  {{ cuda_compiler_version }}
+    - cuda-version {{ cuda_compiler_version }}
     - pytest >=2
   source_files:
     - test
