@@ -30,6 +30,7 @@ requirements:
     - python
     - pip
     - libboost-python-devel
+    - libboost-devel
     - numpy
     - cuda-profiler-api  # [(cuda_compiler_version or "").startswith("12")]
     - libcurand-dev      # [(cuda_compiler_version or "").startswith("12")]
