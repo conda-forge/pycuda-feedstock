@@ -28,26 +28,6 @@ jobs:
         CONFIG: win_64_cuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: win_64_cuda_compilercuda-nvcccuda_c_h2c93424f4a
-      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.10.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.10.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_h9bef1444d4
-      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.8.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.8.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_hb8fa5fb540
-      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.9.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.22python3.9.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_h40d0dbcf3c
-      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.23python3.11.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_hb42779e2ff
-      win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.26python3.12.____cpythonpython_implcpython:
-        CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.2numpy1.26python3.12.____cpythonpython_implcpython
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: win_64_cuda_compilernvcccuda_compil_h1550451fab
       win_64_cuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpythonpython_implcpython:
         CONFIG: win_64_cuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpythonpython_implcpython
         UPLOAD_PACKAGES: 'True'
