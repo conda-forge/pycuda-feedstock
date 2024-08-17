@@ -11,16 +11,19 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   # symlink not implemented in pypy
   skip: true  # [win and python_impl == "pypy"]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
+  # CUDA 11.8 aarch needs newer glibc, but we don't have an image for that
+  skip: true  # [aarch64 and cuda_compiler_version == "11.8"]
   missing_dso_whitelist:
     - '*/libcuda.*'
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}
 
@@ -29,6 +32,7 @@ requirements:
     - python
     - pip
     - libboost-python-devel
+    - libboost-devel
     - numpy
     - cuda-profiler-api  # [(cuda_compiler_version or "").startswith("12")]
     - libcurand-dev      # [(cuda_compiler_version or "").startswith("12")]
