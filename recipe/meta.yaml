@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   # symlink not implemented in pypy
   skip: true  # [win and python_impl == "pypy"]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
@@ -39,7 +39,6 @@ requirements:
 
   run:
     - python
-    - {{ pin_compatible('numpy') }}
     - pytools >=2011.2
     - appdirs >=1.4.0
     - mako
