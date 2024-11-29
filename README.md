@@ -119,45 +119,87 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.10.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.10.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.10.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.10.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.8.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.8.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.8.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____73_pypypython_implpypy</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.9.____73_pypypython_implpypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____73_pypypython_implpypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.9.____73_pypypython_implpypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.9.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.22python3.9.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.23python3.11.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.23python3.11.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.23python3.11.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.23python3.11.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.26python3.12.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.26python3.12.____cpythonpython_implcpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.26python3.12.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version11c_stdlib_version2.28cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11numpy1.26python3.12.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.10.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.10.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.8.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.8.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____73_pypypython_implpypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____73_pypypython_implpypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.22python3.9.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.23python3.11.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.23python3.11.____cpythonpython_implcpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.26python3.12.____cpythonpython_implcpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12297&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pycuda-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version12c_stdlib_version2.17cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12numpy1.26python3.12.____cpythonpython_implcpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
