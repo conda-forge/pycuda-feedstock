@@ -1,17 +1,17 @@
 {% set name = "pycuda" %}
-{% set version = "2024.1" %}
-{% set sha256 = "d50d23ff6371482cff7d4b953ef40ab81c9df038ecb614484f9fd5347327327e" %}
+{% set version = "2025.1" %}
+{% set sha256 = "52738e9a941c295c0a5df6aa0d49ac89f66d835dacce9c9c8b84e7530fe4622f" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   # symlink not implemented in pypy
   skip: true  # [win and python_impl == "pypy"]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
