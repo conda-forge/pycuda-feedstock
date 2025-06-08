@@ -27,7 +27,7 @@ libboost_devel:
 libboost_python_devel:
 - '1.86'
 numpy:
-- '1.22'
+- '2'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -37,7 +37,7 @@ python:
 python_impl:
 - cpython
 target_platform:
-- linux-ppc64le
+- linux-64
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
@@ -45,5 +45,4 @@ zip_keys:
   - cuda_compiler_version
   - docker_image
 - - python
-  - numpy
   - python_impl
