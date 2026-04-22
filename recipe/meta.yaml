@@ -1,6 +1,6 @@
 {% set name = "pycuda" %}
-{% set version = "2025.1.2" %}
-{% set sha256 = "0dd82911d72d8e03c63128ae44e99cfb7b4689094aba6cc5193d8e944717aafa" %}
+{% set version = "2026.1" %}
+{% set sha256 = "759516160628ba06f32ce7e563e3f5b9214691dc9528a03ea99ea1073f4e14ba" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   # symlink not implemented in pypy
   skip: true  # [win and python_impl == "pypy"]
   skip: true  # [cuda_compiler_version in (undefined, "None")]
